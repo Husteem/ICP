@@ -1,11 +1,11 @@
 {
-  "version": 1,
   "canisters": {
     "crud": {
-      "type": "custom",
-      "candid": "src/index.did",
-      "wasm": "src/index.wasm",
-      "build": "azle build crud"
+      "type": "azle",
+      "main": "index.ts",
+      "custom": {
+        "candid_gen": "automatic"
+      }
     }
   }
 }
