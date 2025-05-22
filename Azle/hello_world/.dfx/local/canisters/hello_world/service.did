@@ -1,0 +1,5 @@
+service : {
+  getMessage : () -> (text) query;
+  neutralizeMessage : () -> (text);
+  setMessage : (text) -> ();
+}
