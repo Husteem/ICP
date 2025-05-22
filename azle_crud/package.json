@@ -1,0 +1,16 @@
+{
+    "scripts": {
+        "pretest": "tsx test/pretest.ts",
+        "test": "jest",
+        "build": "azle build crud"
+    },
+    "dependencies": {
+        "azle": "^0.31.0",
+        "uuid": "^11.1.0"
+    },
+    "devDependencies": {
+        "@types/uuid": "^10.0.0",
+        "jest": "^29.7.0",
+        "ts-jest": "^29.3.2"
+    }
+}
